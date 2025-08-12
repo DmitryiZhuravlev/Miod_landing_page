@@ -1,0 +1,315 @@
+html {
+    box-sizing: border-box;
+}
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    max-width: 1446px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+header, .about {
+    padding: 50px 0 0 0;
+}
+header {
+    background-image: url(/img/Main.png);
+    background-size: 100% 100%;
+    padding-bottom: 15rem;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container, .header_nav, .header_title, .about_title, .about_text, .attractions_title, .contacts_title, .contacts_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container {
+    gap: 8rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 32px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.header_title h1 {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title_text {
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: .24px;
+}
+.title_button, .about_button {
+    padding: 8px 16px 8px 16px;
+    letter-spacing: 0px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #D8AE5E;
+    border: none;
+    border-radius: 4% 4% 4% 4%;
+    cursor: pointer;
+}
+.about {
+    padding-bottom: 64px;
+}
+.about .container {
+    gap: 32px;
+}
+.about_title h2 {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.about .title_text {
+    color: black;
+}
+.about_line {
+    width: 120px;
+    height: 0;
+    border-bottom: 2px solid #D8AE5E;
+}
+.about_text {
+    padding: 0px 421px 0 421px;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.attractions_title {
+    padding: 64px 570px 0 572px;
+    gap: 8px;
+}
+.attractions_title h2 {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.attractions_line {
+    width: 120px;
+    height: 32px;
+    border-bottom: 2px solid #D8AE5E;
+}
+.attractions {
+    background-color: #f4f4f4;
+}
+.attractions_list {
+    padding: 64px 128px 0 128px;
+}
+.attractions_button {
+    margin: 64px 475.5px 64px 475.5px;
+}
+.attractions_1, .attractions_2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+}
+.attractions_1 {
+    margin: 0 223.5px 48px 223.5px;
+}
+.attractions_2 {
+    margin: 48px 134px 0 134px;
+}
+.attraction_point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+}
+.attraction_point img {
+    align-self: center;
+}
+.attraction_point p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.low_text {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.low_text_line {
+    width: 289px;
+    height: 8px;
+    border-bottom: 2px solid #D8AE5E;
+    margin-bottom: 64px;
+}
+.facilities_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.facilities_container, .ficilities_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.facilities_title h2 {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+.facilities_title p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.facilities_title_line {
+    width: 120px;
+    height: 32px;
+    border-bottom: 2px solid #D8AE5E;
+    align-self: center;
+}
+.panel_1_title, .panel_2_title {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.panel_1_tooltips, .panel_2_tooltips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+.panel_1_row_1, .panel_1_row_2, .panel_2_row_1, .panel_2_row_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: 16px;
+}
+.contacts .container {
+    gap: 64px;
+    background-color: #f4f4f4;
+}
+.contact_title {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+.contacts_text {
+    padding: 20px 35.5px 20px 35.5px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contacts_line {
+    width: 120px;
+    height: 18px;
+    border-bottom: 2px solid #D8AE5E;
+}
+.contacts_list {
+    gap: 32px;
+}
+.contact_item {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.contact_item img {
+    align-self: center;
+}
+.contact_item p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.contacts_links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 64px;
+}
+footer .container {
+    gap: 64px;
+}
+.footer_logo {
+    padding-top: 64px;
+}
+.footer_links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.footer_links img {
+    align-self: center;
+}
+.footer_contacts {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.footer_copy {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    body {
+       margin: 0;
+       font-size: 10px;
+    }
+    header {
+        width: auto;
+        background-image: url(/img/Main.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .title_text {
+        text-align: center;
+    }
+    .facilities_title h2 {
+        font-size: 50px;
+    }
+    .attractions_1, .attractions_2, .panel_1_row_1, .panel_1_row_2, .panel_2_row_1, .panel_2_row_2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel_1_row_1, .panel_1_row_2, .panel_2_row_1, .panel_2_row_2 {
+        padding: 0;
+        gap: 5px;
+    }
+}
