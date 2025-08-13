@@ -15,7 +15,7 @@ header, .about {
     padding: 50px 0 0 0;
 }
 header {
-    background-image: url("img/Main.png");
+    background-image: url(img/Main.png);
     background-size: 100% 100%;
     padding-bottom: 15rem;
     color: white;
